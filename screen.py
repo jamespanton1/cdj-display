@@ -1,3 +1,4 @@
+# Hello pi
 # always seem to need this
 
 import sys
