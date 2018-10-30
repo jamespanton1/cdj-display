@@ -29,6 +29,10 @@ class MainWindow(QMainWindow, mainwindow_auto.Ui_MainWindow):
         self.tblMain1.setRowCount(cInt)
         self.tblMain1.setHorizontalHeaderLabels(["Track", "Title", "Artist", "Genre"])
         self.tblMain1.setSelectionBehavior(QAbstractItemView.SelectRows)
+        self.tblMain1.setColumnWidth(0, 40)
+        self.tblMain1.setColumnWidth(1, 360)
+        self.tblMain1.setColumnWidth(2, 240)
+        self.tblMain1.setColumnWidth(3, 135)
 
     def setTableRows(self, data):
         i = 0
