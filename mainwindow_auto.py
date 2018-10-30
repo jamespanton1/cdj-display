@@ -24,7 +24,7 @@ class Ui_MainWindow(object):
         self.tblMain1.setColumnCount(0)
         self.tblMain1.setRowCount(0)
         self.lblImg1 = QtWidgets.QLabel(self.centralWidget)
-        self.lblImg1.setGeometry(QtCore.QRect(164, 390, 634, 90))
+        self.lblImg1.setGeometry(QtCore.QRect(137, 390, 660, 90))
         self.lblImg1.setText("")
         self.lblImg1.setObjectName("lblImg1")
         MainWindow.setCentralWidget(self.centralWidget)
