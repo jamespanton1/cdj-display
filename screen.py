@@ -44,17 +44,17 @@ class MainWindow(QMainWindow, mainwindow_auto.Ui_MainWindow):
                 #Manual way of changing colour of cell if needed
                 #self.tblMain1.item(0,0).setBackground(QtGui.QColor(125,125,125))
 
-            st = ', '.join(data["track"][i]["Title"])
+            st = (data["track"][i]["Title"])
             self.tblMain1.setItem(i,1, QTableWidgetItem(st))
 
 
 
-            st = ', '.join(data["track"][i]["Artist"])
+            st = (data["track"][i]["Artist"])
             self.tblMain1.setItem(i,2, QTableWidgetItem(st))
 
 
 
-            st = ', '.join(data["track"][i]["Genre"])
+            st = (data["track"][i]["Genre"])
             self.tblMain1.setItem(i,3, QTableWidgetItem(st))
 
 
